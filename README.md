@@ -1,4 +1,7 @@
-A simple platform for uploading and viewing files
-AUTHOR:
+A simple interface for uploading and viewing files.
+
+Author:
+
 Oluwadamilare Edun <damilareedun@gmail.com>
-Matthew Utti <matthewutti@oulook.com>
+
+Matthew Utti <matthewutti@outlook.com>
