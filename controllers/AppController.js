@@ -9,13 +9,13 @@ class AppController {
     };
     res.status(200).send(json);
   }
-  
-  static getStats(_req, res) {
+
+  static async getStats(_req, res) {
     const json = {
-      users: await dbClient.nbUsers();
-      files: await dbClient.nbFiles();
-    }
-   res.status(200).send(json);
+      users: await dbClient.nbUsers(),
+      files: await dbClient.nbFiles(),
+    };
+    res.status(200).send(json);
   }
 }
 
